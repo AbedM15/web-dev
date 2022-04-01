@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <h1 id="title">Machogu's Form</h1>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="jumbotron">
+    <p id="description">Machogu is looking for a personal assistant developer. To submit your application and get past the
+    initial screening stage kindly fill this form.</p>
+  </div>
+  <form action="form.py" id="survey-form" >
+    <label for="name" id="name-label">Name</label>
+    <input class="" id="name" type="text" placeholder="Enter your name here" required="">
+    <br>
+    <br>
+    <label for="email" id="email-label">E-mail</label>
+    <input class="" id="email" type="email" name="email" placeholder="Enter your email here" required="">
+
+    <br>
+    <br>
+    <label for="age" id="number-label">How old are you?</label>
+    <input id="age_number" type="number" name="age" min="18" max="60" placeholder="Age" class="input-box">
+    <br> <br>
+    <label>Where are you now?</label>
+    <select id="dropdown" required="">
+      <option disabled="" selected="" value="">Choose an option</option>
+      <option value="student">Student</option>
+      <option value="Near-graduation">Awaiting Graduation</option>
+      <option value="employed">Employed</option>
+      <option value="unemployed">Unemployed</option>
+    </select>
+    <br> <br>
+    <label id="personality">What is your personality type</label>
+    <label>
+      <input type="radio" name="personality" value="introvert">Introvert
+    </label>
+    <label>
+      <input type="radio" name="personality" value="extrovert">Extrovert
+    </label>
+    <label>
+      <input type="radio" name="personality" value="ambivert">Ambivert
+    </label>
+    <br> <br>
+    <label id="coding_strength">
+      What area of coding are you comfortable with?
+    </label>
+    <br>
+    <input type="checkbox" value="1">Front end
+        <br>
+    <input type="checkbox" value="1">Backend end
+        <br>
+    <input type="checkbox" value="1">Terminal based apps
+
+    <br>
+    <br>
+    <p><b>Anything you would like to be taken into consideration?</p>
+    <textarea id="comments"class="form-control "name="comment" placeholder="Enter your text here"></textarea>
+    <br>
+    <button class="btn btn-primary btn-lg" id="submit" type="submit">Submit</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+#survey-form{
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: yellow;
+  background-color: #36454f;
+}
+form {
+  display: inline-block;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+.input-box{
+  width: 100px;
+}
+#email{
+width: 200px;
+}
+#name{
+width: 250px;
+}
+#description{
+  text-align: center;
+  font-style: italic;
+  color: blue;
+  font-weight: 200;
+}
+#survey-form{
+  display: block;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgb(104, 118, 219);
+}
+
+
+
