@@ -19,9 +19,7 @@ class ServiceHandler(BaseHTTPRequestHandler):
 		self.end_headers()
 		return temp
 		
-    	######
-	#LIST#
-	######
+   
 	#GET Method Defination
 	def do_GET(self):
 		#defining all the headers
@@ -46,7 +44,7 @@ class ServiceHandler(BaseHTTPRequestHandler):
 	
 	
 	
-	#PUT method Defination
+	#PUT method Definition
 	def do_PUT(self):
 		temp = self._set_headers()
 		#seprating input into key and value
